@@ -29,17 +29,17 @@ p {
     padding: 20px;
     justify-content: center;
 }
+
 @media (max-width: 768px){
     body {
         font-size: 14px;
     }
     .content {
-        flex-direction: column; /* stack sections vertically on small screens */
+        flex-direction: column; 
         padding: 10px;
     }
-
+    
     img {
-        max-width: 100%; /* scale images to fit screen */
-        height: auto;
+        max-width: 100%; 
     }
 }
